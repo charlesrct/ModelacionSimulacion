@@ -1,0 +1,98 @@
+body{
+    background-color:#E1E6B9;
+    margin:0px;
+    font-family:"Helvetica",Arial;
+    overflow-x:hidden;
+}
+header{
+    border-bottom:solid;
+    border-width:1px;
+    padding:5px;
+    padding-left:30px;
+}
+header h1{
+    font-size:40px;
+    color:#375D3B;
+    margin:0px;
+}
+section{
+    padding-left:10px;
+}
+#footer
+{
+    position: fixed;
+    bottom:0px;
+    background-color:#000;
+    font-size:10px;
+    width:100%;
+    color:#ABC8A4;
+    text-align:center;
+}
+
+#buscando, #dados
+{
+    position: absolute;
+    margin-left: 200px;
+    width:700px;
+    background-color:#FFF;
+    color:#000;
+}
+
+.focus{
+    border: 1px solid red;
+}
+
+.button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #375D3B), color-stop(1, #379D3B) );
+    background:-moz-linear-gradient( center top, #375D3B 5%, #379D3B 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#375D3B', endColorstr='#379D3B');
+    background-color:#375D3B;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #375D3B;
+    display:inline-block;
+    color:#ABC8A4;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+}
+.button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #379D3B), color-stop(1, #375D3B) );
+    background:-moz-linear-gradient( center top, #379D3B 5%, #375D3B 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#379D3B', endColorstr='#375D3B');
+    background-color:#379D3B;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+th, td
+{
+    border: 1px solid #375D3B;
+    padding: 0px 6px;
+}
+
+.mini { 
+    padding:1px 15px;
+}
+
+.mini:hover { 
+    line-height: 30px;
+    background-color: #379D3B;
+}
+.oculto{
+    border: 0px solid black;
+    background-color: #E1E6B9;
+}
+
+.lado{
+    padding-right: 5px;
+    display: inline-table;
+}
